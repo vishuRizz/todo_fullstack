@@ -28,7 +28,6 @@ function CreateTodo({ addingTodo }) {
       })
         .then(async function (res) {
           const data = await res.json();
-          console.log(data);
         })
         .catch((error) => console.error(error));
     }
